@@ -10,6 +10,18 @@ import {Containers,DashboardContainer} from './containers/index'
 
 //Components
 import {Components,Dashboard} from './components/index'
+import { ButtonsModule } from '@progress/kendo-angular-buttons';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LayoutModule } from '@progress/kendo-angular-layout';
+import { InputsModule } from '@progress/kendo-angular-inputs';
+import { ButtonGroupModule } from '@progress/kendo-angular-buttons';
+import { GridModule } from '@progress/kendo-angular-grid';
+
+
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -22,6 +34,12 @@ import {Components,Dashboard} from './components/index'
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ButtonsModule,
+    BrowserAnimationsModule,
+    LayoutModule,
+    InputsModule,
+    ButtonGroupModule,
+    GridModule    
     
   ],
   providers: [],

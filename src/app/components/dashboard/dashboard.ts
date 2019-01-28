@@ -8,4 +8,9 @@ import {Component,OnInit} from '@angular/core'
 export class Dashboard implements OnInit{
     constructor(){}
     ngOnInit(){}
+    title = 'Hello World!';
+
+   onButtonClick() {
+       this.title = 'Hello from Kendo UI!';
+   }
 }

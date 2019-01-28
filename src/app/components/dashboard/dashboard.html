@@ -1,4 +1,4 @@
-<!--The content below is only a placeholder and can be replaced.-->
+<!-- The content below is only a placeholder and can be replaced.
 <div style="text-align:center">
     <h1>
       Welcome to {{ title }}!
@@ -16,4 +16,81 @@
     <li>
       <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
     </li>
-  </ul>
+  </ul> -->
+<!-- <h1>{{title}}</h1> -->
+
+<!-- <button kendoButton (click)="onButtonClick()" [primary]="true">My Kendo UI Button</button> -->
+
+
+<!-- Vertical splitter -->
+<div style="height:70px">
+  <kendo-splitter orientation="vertical" class="navbar">
+    <kendo-splitter-pane style="overflow:hidden;">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 example-col">
+          <p>Single selection mode</p>
+          <button kendoButton [toggleable]="true" [icon]="'bold'"></button>
+
+          <!-- <button kendoButton [iconClass]="'fa fa-calendar fa-fw'"></button> -->
+          <!-- <kendo-buttongroup [selection]="'single'">
+            <button kendoButton [toggleable]="true" [icon]="'align-left'"></button>
+            <button kendoButton [toggleable]="true" [icon]="'align-center'"></button>
+            <button kendoButton [toggleable]="true" [icon]="'align-right'"></button>
+            <button kendoButton [toggleable]="true" [icon]="'align-justify'"></button>
+          </kendo-buttongroup> -->
+        </div>
+        <div class="col-xs-12 col-sm-6 example-col">
+          <p>Multiple selection mode</p>
+          <kendo-buttongroup>
+            <button kendoButton [toggleable]="true" [icon]="'bold'"></button>
+            <button kendoButton [toggleable]="true" [icon]="'italic'"></button>
+            <button kendoButton [toggleable]="true" [icon]="'underline'"></button>
+          </kendo-buttongroup>
+        </div>
+      </div>
+    </kendo-splitter-pane>
+  </kendo-splitter>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-6 example-col">
+    <p>Single selection mode</p>
+    <!-- <button kendoButton [iconClass]="'fa fa-calendar fa-fw'"></button> -->
+    <button kendoButton [toggleable]="true" [icon]="'bold'"></button>
+
+    <!-- <kendo-buttongroup [selection]="'single'">
+      <button kendoButton [toggleable]="true" [icon]="'align-left'"></button>
+      <button kendoButton [toggleable]="true" [icon]="'align-center'"></button>
+      <button kendoButton [toggleable]="true" [icon]="'align-right'"></button>
+      <button kendoButton [toggleable]="true" [icon]="'align-justify'"></button>
+    </kendo-buttongroup> -->
+  </div>
+  <div class="col-xs-12 col-sm-6 example-col">
+    <p>Multiple selection mode</p>
+    <kendo-buttongroup>
+      <button kendoButton [toggleable]="true" [icon]="'bold'"></button>
+      <button kendoButton [toggleable]="true" [icon]="'italic'"></button>
+      <button kendoButton [toggleable]="true" [icon]="'underline'"></button>
+    </kendo-buttongroup>
+  </div>
+</div>
+<!-- <kendo-splitter orientation="horizontal" style="height: 200px;">
+  <kendo-splitter-pane>
+    <h3>Middle pane</h3>
+  </kendo-splitter-pane>
+  <kendo-splitter-pane size="20%">
+    <h3>Right pane</h3>
+  </kendo-splitter-pane>
+</kendo-splitter> -->
+
+<!-- <div class="layout">
+  <div class="navigation-pane">
+      <kendo-panelbar (stateChange)="stateChange($event)" [selectable]="false">
+      <kendo-panelbar-item>
+        <p></p>
+      </kendo-panelbar-item>
+      </kendo-panelbar>
+  </div> -->
+<!-- <div class="header">
+    <p>skdjhasdm</p>
+  </div> -->

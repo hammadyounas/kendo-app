@@ -16,6 +16,8 @@ import { LayoutModule } from '@progress/kendo-angular-layout';
 import { InputsModule } from '@progress/kendo-angular-inputs';
 import { ButtonGroupModule } from '@progress/kendo-angular-buttons';
 import { GridModule } from '@progress/kendo-angular-grid';
+import { MenuModule } from '@progress/kendo-angular-menu';
+
 
 
 
@@ -39,7 +41,8 @@ import { GridModule } from '@progress/kendo-angular-grid';
     LayoutModule,
     InputsModule,
     ButtonGroupModule,
-    GridModule    
+    GridModule,
+    MenuModule    
     
   ],
   providers: [],
